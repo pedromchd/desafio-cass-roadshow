@@ -1,0 +1,21 @@
+//  VERILOG PORT        BOARD COMPONENT
+    // System wide signals
+    clk     =           ck1;
+    rst     =           btn0;
+    set     =           btn1;
+
+    // User controlled signals
+    cen     =           VCC;
+    mode    =           sw0;
+
+    // Connect rotate flip-flops to leds
+    q[0]      =         led0;
+    q[1]      =         led1;
+    q[2]      =         led2;
+    q[3]      =         led3;
+    q[4]      =         led4;
+    q[5]      =         led5;
+    q[6]      =         led6;
+    q[7]      =         led7;
+    q[8]      =         led8;
+    q[9]      =         led9;
