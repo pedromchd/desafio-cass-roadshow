@@ -1,12 +1,13 @@
 // declaramos o módulo e listamos todos os seus pinos
-module full_adder (S, Cout, A, B, Cin);
-
-  // informamos o sentido de cada pino
-  input  A;  		// A é uma entrada
-  input  B; 		// B é uma entrada
-  input  Cin; 	// Cin é uma entrada
-  output S; 		// S é uma saída
-  output Cout;	// Cout é uma saída
+module full_adder (
+	// informamos o sentido de cada pino
+	// também pode ser feito aqui na declaração do módulo
+	output	S, 		// S é uma saída
+	output	Cout, // Cout é uma saída
+	input	A, 		// A é uma entrada
+	input	B, 		// B é uma entrada
+	input	Cin		// Cin é uma entrada
+	);
 
   // declaramos os fios internos
   wire k, w, y;

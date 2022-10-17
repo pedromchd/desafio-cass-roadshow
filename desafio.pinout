@@ -1,21 +1,25 @@
 //  VERILOG PORT        BOARD COMPONENT
-    // System wide signals
-    clk     =           ck1;
-    rst     =           btn0;
-    set     =           btn1;
-
-    // User controlled signals
-    cen     =           VCC;
-    mode    =           sw0;
-
-    // Connect rotate flip-flops to leds
-    q[0]      =         led0;
-    q[1]      =         led1;
-    q[2]      =         led2;
-    q[3]      =         led3;
-    q[4]      =         led4;
-    q[5]      =         led5;
-    q[6]      =         led6;
-    q[7]      =         led7;
-    q[8]      =         led8;
-    q[9]      =         led9;
+// entrada A e os pinos correspondentes
+    A[0]           =   sw0             ;
+    A[1]           =   sw1             ;
+    A[2]           =   sw2             ;
+    A[3]           =   sw3             ;
+    A[4]           =   sw4             ;
+    A[5]           =   btn0            ;
+// entrada B e os pinos correspondentes
+    B[0]           =   sw5             ;
+    B[1]           =   sw6             ;
+    B[2]           =   sw7             ;
+    B[3]           =   sw8             ;
+    B[4]           =   sw9             ;
+    B[5]           =   btn1            ;
+// saida S e os pinos correspondentes
+    S[0]           =   led0            ;
+    S[1]           =   led1            ;
+    S[2]           =   led2            ;
+    S[3]           =   led3            ;
+    S[4]           =   led4            ;
+    S[5]           =   led5            ;
+    S[6]           =   led6            ;
+// CONSTANTES E PINOS CORRESPONDENTES
+    LOW            =   GND             ;
